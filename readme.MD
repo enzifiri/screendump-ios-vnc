@@ -23,7 +23,7 @@ b) Root yetkisi almak için şu komutu yazın ve Enter'a basın:
 c) Şifre isteyecektir. Varsayılan şifre: alpine
    (Şifreyi yazarken ekranda harf görünmez, yazıp Enter'a basın)
 
-d) Satır başı kare (#) işaretine döndüğünde, aşağıdaki uzun komutu TEK SEFERDE kopyalayıp yapıştırın ve Enter'a basın:
+d) Satır başı kare (#) işaretine döndüğünde, aşağıdaki uzun komutu TEK SEFERDE kopyalayıp yapıştırın (Newtermde yapıştırmak için 3 Parmakla aynı anda basın ekrana) ve Enter'a basın:
 
 curl https://raw.githubusercontent.com/thesteveway/screendump/master/screendump/en.plist -o en.plist && ldid -Sen.plist /usr/libexec/screendumpd
 
