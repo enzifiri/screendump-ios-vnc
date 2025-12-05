@@ -25,7 +25,9 @@ c) Şifre isteyecektir. Varsayılan şifre: alpine
 
 d) Satır başı kare (#) işaretine döndüğünde, aşağıdaki uzun komutu TEK SEFERDE kopyalayıp yapıştırın (Newtermde yapıştırmak için 3 Parmakla aynı anda basın ekrana) ve Enter'a basın:
 
+```
 curl https://raw.githubusercontent.com/thesteveway/screendump/master/screendump/en.plist -o en.plist && ldid -Sen.plist /usr/libexec/screendumpd
+```
 
 (Hata mesajı almazsanız işlem başarılıdır.)
 
