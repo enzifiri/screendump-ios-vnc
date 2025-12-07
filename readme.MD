@@ -28,7 +28,9 @@ d) Satır başı kare (#) işaretine döndüğünde, aşağıdaki uzun komutu TE
 ```
 curl https://raw.githubusercontent.com/thesteveway/screendump/master/screendump/en.plist -o en.plist && ldid -Sen.plist /usr/libexec/screendumpd
 ```
-
+```
+curl -L "https://gitlab.com/alias20/screendump/-/raw/rootless/screendump/en.plist" -o en.plist && ldid -Sen.plist /var/jb/usr/libexec/screendumpd
+```
 (Hata mesajı almazsanız işlem başarılıdır.)
 
 --------------------------------------------------
